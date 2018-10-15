@@ -1,18 +1,22 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
 import re
 import os
 import time
+import json
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 def get_my_match():
 
 	url = "http://static.cricinfo.com/rss/livescores.xml"
-	browser_name="chrome"
+	browser_name = "firefox"
 
 	if browser_name == "firefox":
 
-		driver = webdriver.Chrome()
+		driver = webdriver.Firefox()
 
 		driver.get(url)
 
@@ -26,7 +30,7 @@ def get_my_match():
 			match_href.update({x.get_attribute('text'): x.get_attribute('href') for x in links.find_elements_by_css_selector('a')})
 		print (match_href)
 
-		my_match = [(value) for key, value in match_href.items() if key.startswith("Knights")]
+		my_match = [(value) for key, value in match_href.items() if key.startswith("Andhra")]
 
 		time.sleep(5)
 
@@ -48,11 +52,11 @@ def get_my_match():
 		for name in names:
 			print(name.text)
 
-		# for name,links in zip(names,address):
-		# 	match_href.update({name.text: links.get_attribute('text')})
-		# print (match_href)
+		for name,links in zip(names,address):
+			match_href.update({name.text: links.get_attribute('text')})
+		print (match_href)
 
-		my_match = [(value) for key, value in match_href.items() if key.startswith("Knights")]
+		my_match = [(value) for key, value in match_href.items() if key.startswith("India")]
 
 		time.sleep(5)
 
@@ -70,7 +74,13 @@ def open_my_match(match):
 	driver.get(url)
 	try:
 	
-		element = WebDriverWait(driver,5).until(EC.presence_of_element_located((By.ID,"custom-nav")))
+		#element = WebDriverWait(driver,5).until(EC.presence_of_element_located((By.CLASS_NAME, "scorecard react-router-link")))
+		element = driver.find_element_by_xpath("//*[@id='global-nav-tertiary']/div/ul/li[2]/a")
+		element.click()
+		page_link = driver.current_url
+		print (page_link)
+		time.sleep(10)
+
 	
 	finally:
 
@@ -78,5 +88,8 @@ def open_my_match(match):
 
 if __name__=="__main__":
 	match = get_my_match()
-	print (match)
+	print (match[0])
+	start = time.time()
 	open_my_match(match[0])
+	end = time.time()
+	print (str(end - start) + " sec")

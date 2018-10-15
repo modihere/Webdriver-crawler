@@ -1837,3 +1837,1394 @@ JavaScript error: http://a.espncdn.com/redesign/0.416.5/node_modules/espn-lazysi
 [Parent 17848, Gecko_IOThread] WARNING: pipe error (58): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
 1539198887438	Marionette	INFO	Stopped listening on port 34897
 1539198889936	Marionette	INFO	Stopped listening on port 37359
+1539353292399	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.V1i4wb3BCpis"
+1539353303936	Marionette	INFO	Listening on port 35049
+1539353303986	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539353304048	Marionette	DEBUG	[2147483649] Frame script loaded
+1539353304160	Marionette	DEBUG	[2147483649] Frame script registered
+1539353304782	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539353305519	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539353305850	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://static.cricinfo.com/rss/livescores.xml
+1539353306320	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://static.cricinfo.com/rss/livescores.xml
+1539353313069	Marionette	INFO	Stopped listening on port 35049
+1539353313122	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1592
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1728
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+[Parent 4342, Gecko_IOThread] WARNING: pipe error (68): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1539353347878	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.B6KGCE71NTnv"
+1539353351092	Marionette	INFO	Listening on port 40125
+1539353351200	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539353351286	Marionette	DEBUG	[2147483649] Frame script loaded
+1539353351287	Marionette	DEBUG	[2147483649] Frame script registered
+1539353351301	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539353351937	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539353351953	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://static.cricinfo.com/rss/livescores.xml
+1539353352002	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://static.cricinfo.com/rss/livescores.xml
+1539353357942	Marionette	INFO	Stopped listening on port 40125
+1539353390732	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yBvijrQQrndK"
+1539353394035	Marionette	INFO	Listening on port 46831
+1539353394062	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539353394108	Marionette	DEBUG	[2147483649] Frame script loaded
+1539353394109	Marionette	DEBUG	[2147483649] Frame script registered
+1539353394167	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539353394589	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539353394645	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://static.cricinfo.com/rss/livescores.xml
+1539353394654	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://static.cricinfo.com/rss/livescores.xml
+1539353399993	Marionette	INFO	Stopped listening on port 46831
+[Parent 4824, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1539353429782	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1pZ4lW2sg1xp"
+1539353436529	Marionette	INFO	Listening on port 40291
+1539353436611	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539353436663	Marionette	DEBUG	[2147483649] Frame script loaded
+1539353436664	Marionette	DEBUG	[2147483649] Frame script registered
+1539353436678	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539353436968	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539353436984	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://static.cricinfo.com/rss/livescores.xml
+1539353437033	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://static.cricinfo.com/rss/livescores.xml
+1539353442387	Marionette	INFO	Stopped listening on port 40291
+1539353467143	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Nm7EK2NwaunO"
+1539353469778	Marionette	INFO	Listening on port 38897
+1539353469863	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539353469918	Marionette	DEBUG	[2147483649] Frame script loaded
+1539353469920	Marionette	DEBUG	[2147483649] Frame script registered
+1539353469949	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539353470056	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539353470074	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://static.cricinfo.com/rss/livescores.xml
+1539353470133	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://static.cricinfo.com/rss/livescores.xml
+1539353475486	Marionette	INFO	Stopped listening on port 38897
+[Parent 5255, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1539353585571	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.z44C9vxxhmXP"
+1539353588336	Marionette	INFO	Listening on port 44919
+1539353588382	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539353588444	Marionette	DEBUG	[2147483649] Frame script loaded
+1539353588447	Marionette	DEBUG	[2147483649] Frame script registered
+1539353588477	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539353588681	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539353588701	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://static.cricinfo.com/rss/livescores.xml
+1539353588755	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://static.cricinfo.com/rss/livescores.xml
+1539353594102	Marionette	INFO	Stopped listening on port 44919
+[Parent 5481, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1539353596001	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.12BhVCzJSRiC"
+1539353600082	Marionette	INFO	Listening on port 37141
+1539353600120	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539353600164	Marionette	DEBUG	[2147483649] Frame script loaded
+1539353600165	Marionette	DEBUG	[2147483649] Frame script registered
+1539353600180	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539353601385	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539353608468	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.espncricinfo.com/series/18902/game/1157753/india-vs-west-indies-2nd-test-west-indies-in-india-2018-19
+1539353615638	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1539353615638	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483657
+1539353616334	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1539353616334	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1539353616334	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483660
+1539353616335	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483661
+1539353616335	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483662
+1539353616335	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483663
+1539353616335	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483664
+1539353616476	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483692
+JavaScript error: , line 0: uncaught exception: Session not established
+1539353617142	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483715
+1539353617178	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483717
+1539353617185	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483720
+1539353617192	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483722
+1539353618233	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483732
+1539353618234	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483734
+1539353618234	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483683
+1539353620726	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483740
+1539353621413	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483755
+1539353622735	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483768
+1539353622758	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483781
+1539353622785	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483794
+1539353625258	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483810
+1539353626015	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483665
+1539353626020	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483666
+1539353626020	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483685
+1539353626020	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483686
+1539353626021	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483773
+1539353626021	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483775
+1539353626022	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483777
+1539353626022	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483779
+1539353626022	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483770
+1539353626023	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483727
+1539353626023	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483753
+1539353626023	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483724
+1539353626023	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483817
+1539353626023	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483687
+1539353626024	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483799
+1539353626024	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483801
+1539353626024	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483803
+1539353626024	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483805
+1539353626024	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483796
+1539353626025	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483688
+1539353626025	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483745
+1539353626025	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483747
+1539353626025	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483749
+1539353626025	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483751
+1539353626026	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483742
+1539353626026	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483689
+1539353626026	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483786
+1539353626026	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483788
+1539353626027	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483790
+1539353626027	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483792
+1539353626027	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483783
+1539353626027	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483815
+1539353626027	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483813
+1539353626027	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483822
+1539353626028	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483690
+1539353626028	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483760
+1539353626029	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483762
+1539353626029	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483764
+1539353626029	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483766
+1539353626030	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483757
+1539353626030	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483825
+1539353626031	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483808
+1539353626031	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483728
+1539353626031	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483819
+1539353626031	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483691
+1539353626032	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483702
+1539353626032	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483704
+1539353626043	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483830
+1539353626043	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483831
+1539353626759	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483832
+1539353626760	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483833
+1539353626760	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483834
+1539353626760	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483835
+1539353626761	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483836
+1539353626761	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483837
+1539353626761	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483838
+1539353626909	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483850
+1539353626909	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483828
+1539353628022	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483880
+1539353628195	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483893
+1539353628213	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483906
+1539353628526	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483921
+1539353628544	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483934
+1539353629536	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483957
+1539353630839	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483971
+1539353632760	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483976
+1539353636340	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483978
+1539353641073	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483981
+1539353646242	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483984
+1539353648923	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483987
+1539353649660	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483990
+1539353651461	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483993
+1539353652188	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483996
+1539353656494	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483999
+1539353662053	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147484002
+1539353662662	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147484005
+1539353663229	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147484011
+1539353665277	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147484029
+1539353672423	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147484034
+1539353677094	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147484037
+1539353677956	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://www.espncricinfo.com/series/18902/scorecard/1157753/india-vs-west-indies-2nd-test-west-indies-in-india-2018-19
+1539353678080	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483926
+1539353678080	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483928
+1539353678081	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483930
+1539353678081	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483932
+1539353678082	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483923
+1539353678082	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483885
+1539353678082	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483887
+1539353678082	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483889
+1539353678083	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483891
+1539353678084	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483882
+1539353678084	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483898
+1539353678085	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483900
+1539353678085	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483902
+1539353678085	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483904
+1539353678085	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483895
+1539353678086	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483911
+1539353678086	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483913
+1539353678086	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483915
+1539353678087	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483917
+1539353678087	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483908
+1539353678087	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483939
+1539353678087	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483941
+1539353678088	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483943
+1539353678088	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483945
+1539353678088	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483936
+1539353678088	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147484016
+1539353678088	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147484018
+1539353678088	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147484020
+1539353678089	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147484022
+1539353678089	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147484013
+1539353678107	Marionette	DEBUG	[2147483649] Received DOM event unload for http://www.espncricinfo.com/series/18902/scorecard/1157753/india-vs-west-indies-2nd-test-west-indies-in-india-2018-19
+1539353678157	Marionette	INFO	Stopped listening on port 37141
+1539353678182	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483839
+1539353678182	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483840
+1539353678182	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483852
+1539353678183	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483853
+1539353678183	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483875
+1539353678183	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483919
+1539353678184	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483873
+1539353678184	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483950
+1539353678184	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483854
+1539353678184	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483855
+1539353678184	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483856
+1539353678185	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483969
+1539353678185	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483960
+1539353678185	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483948
+1539353678185	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483962
+1539353678185	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483857
+1539353678186	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483966
+1539353678186	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483974
+1539353678186	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483953
+1539353678186	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483876
+1539353678186	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483955
+1539353678186	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483858
+1539353678187	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147484024
+1539353678187	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147484009
+1539353678187	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147484026
+1539353678187	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147484006
+1539353678187	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147484030
+1539353678188	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1539353678188	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1539353678188	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483677
+1539353678188	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483678
+1539353678188	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147484032
+1539353678189	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483681
+1539353678189	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483705
+1539353678189	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483719
+1539353678189	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483738
+1539353678190	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483649
+1539354040910	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yubhIc6cKphg"
+1539354045029	Marionette	INFO	Listening on port 44365
+1539354045136	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539354045190	Marionette	DEBUG	[2147483649] Frame script loaded
+1539354045190	Marionette	DEBUG	[2147483649] Frame script registered
+1539354045204	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539354045536	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539354045598	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://static.cricinfo.com/rss/livescores.xml
+1539354045608	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://static.cricinfo.com/rss/livescores.xml
+1539354050941	Marionette	INFO	Stopped listening on port 44365
+[Parent 6075, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1539354054070	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.uDBFCoa8ELis"
+1539354057332	Marionette	INFO	Listening on port 38695
+1539354057385	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539354057445	Marionette	DEBUG	[2147483649] Frame script loaded
+1539354057446	Marionette	DEBUG	[2147483649] Frame script registered
+1539354057476	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539354058707	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539354061951	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.espncricinfo.com/series/18902/game/1157753/india-vs-west-indies-2nd-test-west-indies-in-india-2018-19
+1539354064625	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1539354064625	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1539354065412	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483657
+1539354065413	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1539354065413	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1539354066318	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483673
+1539354070481	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483703
+1539354071127	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483708
+1539354071327	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483714
+1539354071331	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483716
+1539354071555	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483713
+1539354071702	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483721
+1539354071733	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483734
+1539354071788	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483748
+JavaScript error: , line 0: uncaught exception: Session not established
+1539354073383	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483754
+1539354073384	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483694
+1539354076020	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483764
+1539354080704	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483767
+1539354091423	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483772
+1539354096216	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483775
+1539354101746	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483778
+1539354106536	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483781
+1539354111720	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483784
+1539354115170	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://www.espncricinfo.com/series/18902/game/1157753/india-vs-west-indies-2nd-test-west-indies-in-india-2018-19
+1539354115232	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483726
+1539354115233	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483728
+1539354115233	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483730
+1539354115233	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483732
+1539354115234	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483723
+1539354115234	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483739
+1539354115234	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483741
+1539354115234	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483743
+1539354115235	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483745
+1539354115236	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483736
+1539354115247	Marionette	DEBUG	[2147483649] Received DOM event unload for http://www.espncricinfo.com/series/18902/game/1157753/india-vs-west-indies-2nd-test-west-indies-in-india-2018-19
+1539354115284	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483660
+1539354115284	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483661
+1539354115285	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483686
+1539354115285	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483707
+1539354115286	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483681
+1539354115286	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483757
+1539354115287	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1539354115288	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483668
+1539354115288	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483752
+1539354115288	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483705
+1539354115288	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483759
+1539354115289	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483669
+1539354115289	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483678
+1539354115289	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483679
+1539354115290	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1539354115290	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483680
+1539354115290	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483687
+1539354115290	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483688
+1539354115291	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483770
+1539354115291	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483689
+1539354115291	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483701
+1539354115291	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483712
+1539354115292	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483749
+1539354115292	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483649
+1539354115296	Marionette	INFO	Stopped listening on port 38695
+[Parent 6282, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1539354166658	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.HfRm1dMeaKkf"
+1539354170601	Marionette	INFO	Listening on port 36073
+1539354170678	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539354170728	Marionette	DEBUG	[2147483649] Frame script loaded
+1539354170729	Marionette	DEBUG	[2147483649] Frame script registered
+1539354170741	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539354171169	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539354171189	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://static.cricinfo.com/rss/livescores.xml
+1539354171236	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://static.cricinfo.com/rss/livescores.xml
+1539354176600	Marionette	INFO	Stopped listening on port 36073
+[Parent 6533, Gecko_IOThread] WARNING: pipe error (58): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1539354179151	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vMwNG3aGuIp3"
+1539354185617	Marionette	INFO	Listening on port 40631
+1539354185683	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539354185730	Marionette	DEBUG	[2147483649] Frame script loaded
+1539354185739	Marionette	DEBUG	[2147483649] Frame script registered
+1539354185767	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539354187243	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539354191055	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.espncricinfo.com/series/18902/game/1157753/india-vs-west-indies-2nd-test-west-indies-in-india-2018-19
+1539354196392	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483657
+1539354196392	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1539354196980	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483679
+1539354197151	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1539354197152	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483660
+1539354197152	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483661
+1539354197153	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483662
+1539354197153	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483663
+1539354197163	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483664
+1539354197163	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483665
+1539354197669	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483696
+1539354200700	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483719
+1539354201469	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483721
+1539354201482	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483734
+1539354201527	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483747
+1539354201545	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483760
+1539354201554	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483773
+1539354202144	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483786
+1539354202196	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483795
+1539354202199	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483797
+1539354202261	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483793
+1539354202536	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483813
+JavaScript error: , line 0: uncaught exception: Session not established
+1539354207334	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483837
+1539354213694	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483845
+1539354213996	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483852
+1539354214250	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483848
+1539354216767	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483855
+1539354221869	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483859
+1539354227003	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483862
+1539354232168	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483865
+1539354237881	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483868
+1539354242835	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483872
+1539354245800	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483726
+1539354245800	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483728
+1539354245801	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483730
+1539354245801	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483732
+1539354245802	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483723
+1539354245803	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483823
+1539354245803	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483824
+1539354245804	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483825
+1539354245804	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483826
+1539354245804	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483821
+1539354245805	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483809
+1539354245806	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483704
+1539354245806	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483817
+1539354245807	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483706
+1539354245807	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483684
+1539354245993	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483683
+1539354246091	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.espncricinfo.com/series/18902/game/1157753/india-vs-west-indies-2nd-test-west-indies-in-india-2018-19
+1539354246206	Marionette	INFO	Stopped listening on port 40631
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2E00B1,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2E00B1,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1539360002957	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XuErql3b0vDG"
+1539360007452	Marionette	INFO	Listening on port 38403
+1539360007485	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539360007538	Marionette	DEBUG	[2147483649] Frame script loaded
+1539360007557	Marionette	DEBUG	[2147483649] Frame script registered
+1539360007579	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539360007816	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539360007875	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://static.cricinfo.com/rss/livescores.xml
+1539360007889	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://static.cricinfo.com/rss/livescores.xml
+1539360013232	Marionette	INFO	Stopped listening on port 38403
+1539360013288	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1592
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1728
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+[Parent 9219, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1539360014947	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.89cp4LKATArf"
+1539360022847	Marionette	INFO	Listening on port 46807
+1539360022894	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539360022959	Marionette	DEBUG	[2147483649] Frame script loaded
+1539360022960	Marionette	DEBUG	[2147483649] Frame script registered
+1539360022978	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539360024325	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539360028252	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.espncricinfo.com/series/18902/game/1157753/india-vs-west-indies-2nd-test-west-indies-in-india-2018-19
+1539360030163	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1539360030163	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1539360031418	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1539360031418	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1539360031419	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483657
+1539360031419	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1539360031419	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1539360031420	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483660
+1539360031420	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483661
+1539360032659	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483709
+1539360032936	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483713
+1539360032940	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483717
+1539360032941	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483719
+1539360033055	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483716
+1539360033675	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483726
+1539360036674	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483731
+1539360036674	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483705
+1539360036674	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483677
+1539360036919	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483676
+1539360037011	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483662
+1539360037011	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483663
+1539360037011	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483675
+1539360037012	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483745
+1539360037024	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483678
+1539360037025	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483679
+1539360037026	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483680
+1539360037028	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483704
+1539360037028	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483735
+1539360037028	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483723
+1539360037028	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483701
+1539360037029	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483681
+1539360037037	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483747
+1539360037038	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483748
+1539360042511	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483749
+1539360042512	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483750
+1539360042512	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483751
+JavaScript error: , line 0: uncaught exception: Session not established
+1539360042994	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483771
+1539360044572	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483782
+1539360044588	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483795
+1539360045077	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483741
+1539360045078	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483766
+1539360045079	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483743
+1539360045225	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483809
+1539360049156	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483824
+1539360054236	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483827
+1539360059496	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483830
+1539360065039	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483833
+1539360069812	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483836
+1539360074974	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483839
+1539360080490	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483842
+1539360085256	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483845
+1539360090757	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483848
+1539360095511	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483851
+1539360100703	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483854
+1539360105810	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483857
+1539360111006	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483860
+1539360120266	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483800
+1539360120266	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483802
+1539360120267	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483804
+1539360120267	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483806
+1539360120268	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483797
+1539360120268	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483777
+1539360120268	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483780
+1539360120269	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483775
+1539360120269	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483811
+1539360120269	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483763
+1539360120280	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483787
+1539360120284	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483789
+1539360120285	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483791
+1539360120285	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483793
+1539360120285	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483784
+1539360120286	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483818
+1539360120286	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483813
+1539360120286	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483819
+1539360120286	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483765
+1539360120548	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483873
+1539360120751	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483888
+1539360122041	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483910
+1539360126590	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483914
+1539360131737	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483917
+1539360137005	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483920
+1539360142542	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483923
+1539360147718	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483926
+1539360152441	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483929
+1539360157605	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483932
+1539360162739	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483935
+1539360168258	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483938
+1539360173044	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://www.espncricinfo.com/series/18902/game/1157753/india-vs-west-indies-2nd-test-west-indies-in-india-2018-19
+1539360173105	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483893
+1539360173106	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483895
+1539360173106	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483897
+1539360173107	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483899
+1539360173107	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483890
+1539360173107	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483878
+1539360173107	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483880
+1539360173108	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483882
+1539360173108	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483884
+1539360173109	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483875
+1539360173131	Marionette	DEBUG	[2147483649] Received DOM event unload for http://www.espncricinfo.com/series/18902/game/1157753/india-vs-west-indies-2nd-test-west-indies-in-india-2018-19
+1539360173175	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483752
+1539360173175	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483753
+1539360173176	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483871
+1539360173176	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483886
+1539360173176	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483869
+1539360173176	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483903
+1539360173176	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483865
+1539360173176	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483764
+1539360173177	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483906
+1539360173177	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483901
+1539360173177	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483907
+1539360173177	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483867
+1539360173178	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483698
+1539360173178	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483725
+1539360173178	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483673
+1539360173178	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483690
+1539360173178	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483691
+1539360173179	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483710
+1539360173179	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483715
+1539360173179	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483736
+1539360173179	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483863
+1539360173179	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483941
+1539360173179	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483739
+1539360173180	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483759
+1539360173180	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483649
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 9506, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 9418, Gecko_IOThread] WARNING: pipe error (71): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1539360173632	Marionette	INFO	Stopped listening on port 46807
+1539360696840	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.L88ksRUm98Wf"
+1539360711061	Marionette	INFO	Listening on port 34159
+1539360711111	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539360711185	Marionette	DEBUG	[2147483649] Frame script loaded
+1539360711186	Marionette	DEBUG	[2147483649] Frame script registered
+1539360711201	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539360711387	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539360711441	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://static.cricinfo.com/rss/livescores.xml
+1539360711449	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://static.cricinfo.com/rss/livescores.xml
+1539360716755	Marionette	INFO	Stopped listening on port 34159
+1539360716815	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1592
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1728
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+[Parent 9946, Gecko_IOThread] WARNING: pipe error (68): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1539360726090	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.uyCvOrRekgjt"
+1539360739173	Marionette	INFO	Listening on port 42373
+1539360739244	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539360739315	Marionette	DEBUG	[2147483649] Frame script loaded
+1539360739316	Marionette	DEBUG	[2147483649] Frame script registered
+1539360739330	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539360741021	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539360745113	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.espncricinfo.com/series/18902/game/1157753/india-vs-west-indies-2nd-test-west-indies-in-india-2018-19
+1539360747788	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1539360747788	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1539360749794	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483657
+1539360749797	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1539360749797	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1539360752381	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483675
+1539360757254	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483703
+1539360757272	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483720
+1539360761858	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483744
+1539360761894	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483747
+1539360762025	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483750
+1539360762034	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483752
+1539360762035	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483754
+1539360762088	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483756
+JavaScript error: , line 0: uncaught exception: Session not established
+1539360763418	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483691
+1539360763804	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483759
+1539360763956	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483762
+1539360764755	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483766
+1539360769110	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483769
+1539360774309	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483772
+1539360779922	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483775
+1539360784635	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483778
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 800, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 800, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1686, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1686, column: 0"
+1539360790791	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483781
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 800, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 800, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1686, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1686, column: 0"
+1539360795057	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483784
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 800, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 800, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1686, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1686, column: 0"
+1539360800115	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483787
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 800, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 800, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1686, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1686, column: 0"
+1539360805605	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483790
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 800, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 800, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1686, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1686, column: 0"
+1539360810359	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483793
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 800, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 800, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1686, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1686, column: 0"
+1539360815544	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483796
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 800, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 800, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1686, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1686, column: 0"
+1539360820910	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483799
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 800, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 800, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1686, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1686, column: 0"
+1539360826390	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483802
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 800, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 800, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1686, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1686, column: 0"
+1539360831818	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483805
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 800, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 800, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1686, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1686, column: 0"
+1539360836622	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483808
+1539360838005	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483708
+1539360838006	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483710
+1539360838007	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483712
+1539360838007	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483714
+1539360838008	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483705
+1539360838009	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483685
+1539360838009	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483716
+1539360838009	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483681
+1539360838010	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483736
+1539360838011	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1539360838022	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483725
+1539360838023	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483727
+1539360838024	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483729
+1539360838024	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483731
+1539360838025	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483722
+1539360838027	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483734
+1539360838027	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483686
+1539360838029	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483738
+1539360838029	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483669
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/layout.js:263:11\ngetGrids@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/layout.js:268:38\ngetGrids@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/layout.js:268:38\ngetGrids@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/layout.js:268:38\nhandler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1159:21\nonPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1783:15\nreceiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:735:7\n"
+1539360839001	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483822
+1539360839088	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483835
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/layout.js:263:11\ngetGrids@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/layout.js:268:38\ngetGrids@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/layout.js:268:38\ngetGrids@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/layout.js:268:38\nhandler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1159:21\nonPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1783:15\nreceiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:735:7\n"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 800, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 800, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1686, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1686, column: 0"
+1539360841964	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483862
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 800, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 800, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1686, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1686, column: 0"
+1539360846982	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483865
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 800, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 800, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1686, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1686, column: 0"
+1539360852399	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483868
+1539360857418	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://www.espncricinfo.com/series/18902/game/1157753/india-vs-west-indies-2nd-test-west-indies-in-india-2018-19
+1539360857485	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.espncricinfo.com/series/18902/game/1157753/india-vs-west-indies-2nd-test-west-indies-in-india-2018-19
+1539360857539	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483840
+1539360857539	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483842
+1539360857540	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483844
+1539360857540	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483846
+1539360857541	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483837
+1539360857541	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483827
+1539360857542	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483829
+1539360857542	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483831
+1539360857543	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483833
+1539360857543	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483824
+1539360858001	Marionette	DEBUG	[2147483649] Received DOM event unload for http://www.espncricinfo.com/series/18902/game/1157753/india-vs-west-indies-2nd-test-west-indies-in-india-2018-19
+1539360858275	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483660
+1539360858275	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483661
+1539360858276	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483849
+1539360858276	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483851
+1539360858276	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483815
+1539360858277	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483858
+1539360858277	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483811
+1539360858278	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483668
+1539360858278	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483819
+1539360858279	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483853
+1539360858279	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483817
+1539360858280	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483860
+1539360858280	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483813
+1539360858281	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483717
+1539360858281	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483696
+1539360858282	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1539360858283	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483676
+1539360858283	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483678
+1539360858283	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483679
+1539360858284	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483871
+1539360858284	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483689
+1539360858284	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483697
+1539360858284	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483698
+1539360858285	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483749
+1539360858792	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.espncricinfo.com/series/18902/game/1157753/india-vs-west-indies-2nd-test-west-indies-in-india-2018-19
+1539360859973	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.espncricinfo.com/series/18902/game/1157753/india-vs-west-indies-2nd-test-west-indies-in-india-2018-19
+1539360877854	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://www.espncricinfo.com/series/18902/game/1157753/india-vs-west-indies-2nd-test-west-indies-in-india-2018-19
+1539360878039	Marionette	DEBUG	[2147483649] Received DOM event unload for http://www.espncricinfo.com/series/18902/game/1157753/india-vs-west-indies-2nd-test-west-indies-in-india-2018-19
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1539360878049	Marionette	INFO	Stopped listening on port 42373
+1539360878051	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483874
+1539360878051	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483876
+1539360878052	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483649
+[Parent 10149, Gecko_IOThread] WARNING: pipe error (47): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1539361573948	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QJeKzR88V6qT"
+1539361582095	Marionette	INFO	Listening on port 33377
+1539361582202	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539361582249	Marionette	DEBUG	[2147483649] Frame script loaded
+1539361582250	Marionette	DEBUG	[2147483649] Frame script registered
+1539361582264	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539361582513	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539361582568	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://static.cricinfo.com/rss/livescores.xml
+1539361582580	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://static.cricinfo.com/rss/livescores.xml
+1539361587872	Marionette	INFO	Stopped listening on port 33377
+[Parent 10772, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1539361589787	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XquShkrCNVVG"
+1539361594857	Marionette	INFO	Listening on port 37609
+1539361594938	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539361595036	Marionette	DEBUG	[2147483649] Frame script loaded
+1539361595052	Marionette	DEBUG	[2147483649] Frame script registered
+1539361595114	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539361596672	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539361600654	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.espncricinfo.com/series/18902/game/1157753/india-vs-west-indies-2nd-test-west-indies-in-india-2018-19
+1539361605341	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483670
+1539361605474	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483673
+1539361605474	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483674
+1539361605620	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483684
+1539361605639	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483697
+1539361605640	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483699
+1539361605676	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483696
+1539361605703	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483668
+1539361605817	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483675
+1539361605818	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483676
+1539361605818	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483677
+1539361605819	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483678
+1539361605819	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483679
+1539361605819	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483680
+1539361605820	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483681
+1539361605838	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483704
+JavaScript error: , line 0: uncaught exception: Session not established
+1539361606104	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483666
+1539361614618	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483746
+1539361614773	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483760
+1539361614787	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483773
+1539361614809	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483786
+1539361614829	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483799
+1539361614859	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483738
+1539361617835	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483824
+1539361621110	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483832
+1539361622299	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483840
+1539361622607	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483844
+1539361624588	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483846
+1539361635303	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483851
+1539361639938	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483854
+1539361650705	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483859
+1539361653008	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://www.espncricinfo.com/series/18902/game/1157753/india-vs-west-indies-2nd-test-west-indies-in-india-2018-19
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1539361653150	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483751
+1539361653151	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483753
+1539361653151	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483755
+1539361653153	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483757
+1539361653153	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483748
+1539361653153	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483765
+1539361653153	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483767
+1539361653154	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483769
+1539361653155	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483771
+1539361653156	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483762
+1539361653156	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483778
+1539361653156	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483780
+1539361653157	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483782
+1539361653157	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483784
+1539361653157	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483775
+1539361653157	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483791
+1539361653158	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483793
+1539361653158	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483795
+1539361653158	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483797
+1539361653159	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483788
+1539361653159	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483804
+1539361653159	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483806
+1539361653159	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483808
+1539361653159	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483810
+1539361653160	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483801
+1539361653173	Marionette	DEBUG	[2147483649] Received DOM event unload for http://www.espncricinfo.com/series/18902/game/1157753/india-vs-west-indies-2nd-test-west-indies-in-india-2018-19
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1539361653243	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483682
+1539361653243	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483683
+1539361653247	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483706
+1539361653247	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483707
+1539361653247	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483835
+1539361653247	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483842
+1539361653248	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483813
+1539361653248	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483733
+1539361653248	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483822
+1539361653249	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483708
+1539361653249	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483709
+1539361653249	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483710
+1539361653250	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1539361653250	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483728
+1539361653250	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483816
+1539361653250	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483743
+1539361653250	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483820
+1539361653251	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483711
+1539361653251	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483732
+1539361653251	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483829
+1539361653251	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483838
+1539361653251	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483742
+1539361653251	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483729
+1539361653252	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483818
+1539361653252	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483712
+1539361653252	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1539361653252	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1539361653252	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1539361653252	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1539361653253	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483849
+1539361653253	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483857
+1539361653253	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483662
+1539361653253	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483695
+1539361653253	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483720
+1539361653254	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483740
+1539361653254	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483649
+1539361654337	Marionette	INFO	Stopped listening on port 37609
+1539361680630	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Piv259zxWrsn"
+1539361686547	Marionette	INFO	Listening on port 44881
+1539361686579	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539361686628	Marionette	DEBUG	[2147483649] Frame script loaded
+1539361686629	Marionette	DEBUG	[2147483649] Frame script registered
+1539361686671	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539361687426	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539361687445	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://static.cricinfo.com/rss/livescores.xml
+1539361687494	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://static.cricinfo.com/rss/livescores.xml
+1539361692788	Marionette	INFO	Stopped listening on port 44881
+1539361692845	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1592
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1728
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+[Parent 11217, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1539361795307	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mddbPdMCOWRL"
+1539361798652	Marionette	INFO	Listening on port 40631
+1539361798725	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539361798777	Marionette	DEBUG	[2147483649] Frame script loaded
+1539361798778	Marionette	DEBUG	[2147483649] Frame script registered
+1539361798792	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539361799306	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539361799326	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://static.cricinfo.com/rss/livescores.xml
+1539361799377	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://static.cricinfo.com/rss/livescores.xml
+1539361804701	Marionette	INFO	Stopped listening on port 40631
+1539361804736	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1592
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1728
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+[Parent 11646, Gecko_IOThread] WARNING: pipe error (58): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1539427671496	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3yXaUNUpm3G1"
+1539427676693	Marionette	INFO	Listening on port 33279
+1539427676723	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539427676787	Marionette	DEBUG	[2147483649] Frame script loaded
+1539427676788	Marionette	DEBUG	[2147483649] Frame script registered
+1539427676819	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539427677042	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539427677097	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://static.cricinfo.com/rss/livescores.xml
+1539427677109	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://static.cricinfo.com/rss/livescores.xml
+1539427682381	Marionette	INFO	Stopped listening on port 33279
+1539427961545	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.afTF18TQfvNr"
+1539427969192	Marionette	INFO	Listening on port 44789
+1539427969279	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539427969331	Marionette	DEBUG	[2147483649] Frame script loaded
+1539427969332	Marionette	DEBUG	[2147483649] Frame script registered
+1539427969345	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539427969618	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539427969638	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://static.cricinfo.com/rss/livescores.xml
+1539427969686	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://static.cricinfo.com/rss/livescores.xml
+1539427974971	Marionette	INFO	Stopped listening on port 44789
+[Parent 20569, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1539428215554	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.HXgXoKwTMchG"
+1539428219383	Marionette	INFO	Listening on port 43999
+1539428219484	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539428219544	Marionette	DEBUG	[2147483649] Frame script loaded
+1539428219547	Marionette	DEBUG	[2147483649] Frame script registered
+1539428219565	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539428259634	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539428259639	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539428259738	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=dnsNotFound&u=http%3A//static.cricinfo.com/rss/livescores.xml&c=UTF-8&f=regular&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20static.cricinfo.com.
+1539428708515	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.szY1QEQ0vPnI"
+1539428714261	Marionette	INFO	Listening on port 32985
+1539428714343	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539428714396	Marionette	DEBUG	[2147483649] Frame script loaded
+1539428714398	Marionette	DEBUG	[2147483649] Frame script registered
+1539428714426	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539428714807	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539428714866	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://static.cricinfo.com/rss/livescores.xml
+1539428714893	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://static.cricinfo.com/rss/livescores.xml
+1539428720197	Marionette	INFO	Stopped listening on port 32985
+[Parent 21762, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1539428794071	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Zzxz8X8lGkrl"
+1539428797560	Marionette	INFO	Listening on port 39205
+1539428797584	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539428797650	Marionette	DEBUG	[2147483649] Frame script loaded
+1539428797656	Marionette	DEBUG	[2147483649] Frame script registered
+1539428797704	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539428797802	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539428797825	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://static.cricinfo.com/rss/livescores.xml
+1539428797893	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://static.cricinfo.com/rss/livescores.xml
+1539428803290	Marionette	INFO	Stopped listening on port 39205
+1539428803350	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1592
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1728
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+[Parent 22149, Gecko_IOThread] WARNING: pipe error (58): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1539428877644	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.aE3AxrIuOZdA"
+1539428881093	Marionette	INFO	Listening on port 34543
+1539428881155	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539428881209	Marionette	DEBUG	[2147483649] Frame script loaded
+1539428881215	Marionette	DEBUG	[2147483649] Frame script registered
+1539428881256	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539428881432	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539428881492	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://static.cricinfo.com/rss/livescores.xml
+1539428881505	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://static.cricinfo.com/rss/livescores.xml
+1539428886802	Marionette	INFO	Stopped listening on port 34543
+[Parent 22538, Gecko_IOThread] WARNING: pipe error (68): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1539428974682	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.qIoYxQ3Y9kn0"
+1539428977928	Marionette	INFO	Listening on port 33673
+1539428977993	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539428978061	Marionette	DEBUG	[2147483649] Frame script loaded
+1539428978062	Marionette	DEBUG	[2147483649] Frame script registered
+1539428978103	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539428978434	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539428978453	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://static.cricinfo.com/rss/livescores.xml
+1539428978506	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://static.cricinfo.com/rss/livescores.xml
+1539428983815	Marionette	INFO	Stopped listening on port 33673
+[Parent 22931, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1539429023474	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.RkMwGdds4T89"
+1539429027069	Marionette	INFO	Listening on port 45933
+1539429027089	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539429027157	Marionette	DEBUG	[2147483649] Frame script loaded
+1539429027162	Marionette	DEBUG	[2147483649] Frame script registered
+1539429027201	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539429027266	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539429027316	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://static.cricinfo.com/rss/livescores.xml
+1539429027335	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://static.cricinfo.com/rss/livescores.xml
+1539429032638	Marionette	INFO	Stopped listening on port 45933
+[Parent 23324, Gecko_IOThread] WARNING: pipe error (72): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 21054, Gecko_IOThread] WARNING: pipe error (72): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1539551238738	Marionette	INFO	Stopped listening on port 43999
+1539610943904	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xkZH5SA9WEW4"
+1539610957223	Marionette	INFO	Listening on port 36627
+1539610957292	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539610957338	Marionette	DEBUG	[2147483649] Frame script loaded
+1539610957563	Marionette	DEBUG	[2147483649] Frame script registered
+1539610958121	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539610958815	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539610959319	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://static.cricinfo.com/rss/livescores.xml
+1539610960878	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://static.cricinfo.com/rss/livescores.xml
+1539610966591	Marionette	INFO	Stopped listening on port 36627
+[Parent 5596, Gecko_IOThread] WARNING: pipe error (71): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1539611005107	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.c08ACfiTEHEh"
+1539611008063	Marionette	INFO	Listening on port 33097
+1539611008160	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539611008228	Marionette	DEBUG	[2147483649] Frame script loaded
+1539611008229	Marionette	DEBUG	[2147483649] Frame script registered
+1539611008245	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539611008359	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539611008379	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://static.cricinfo.com/rss/livescores.xml
+1539611008429	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://static.cricinfo.com/rss/livescores.xml
+1539611013760	Marionette	INFO	Stopped listening on port 33097
+1539611013820	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1592
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1728
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+[Parent 5850, Gecko_IOThread] WARNING: pipe error (71): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1539611360137	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZVm0WmPYy1bB"
+1539611364144	Marionette	INFO	Listening on port 33149
+1539611364159	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539611364217	Marionette	DEBUG	[2147483649] Frame script loaded
+1539611364218	Marionette	DEBUG	[2147483649] Frame script registered
+1539611364239	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539611364564	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539611364584	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://static.cricinfo.com/rss/livescores.xml
+1539611364632	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://static.cricinfo.com/rss/livescores.xml
+1539611369883	Marionette	INFO	Stopped listening on port 33149
+[Parent 6386, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1539611405851	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vER6VztlITMe"
+1539611409191	Marionette	INFO	Listening on port 39731
+1539611409268	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539611409323	Marionette	DEBUG	[2147483649] Frame script loaded
+1539611409324	Marionette	DEBUG	[2147483649] Frame script registered
+1539611409335	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539611409678	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539611409694	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://static.cricinfo.com/rss/livescores.xml
+1539611409741	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://static.cricinfo.com/rss/livescores.xml
+1539611414984	Marionette	INFO	Stopped listening on port 39731
+1539611415039	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1592
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1728
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+[Parent 6784, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1539613695484	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.CBVB44AUeuYx"
+1539613710236	Marionette	INFO	Listening on port 44115
+1539613710245	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539613710311	Marionette	DEBUG	[2147483649] Frame script loaded
+1539613710313	Marionette	DEBUG	[2147483649] Frame script registered
+1539613710332	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539613710807	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539613710825	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://static.cricinfo.com/rss/livescores.xml
+1539613710873	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://static.cricinfo.com/rss/livescores.xml
+1539613716150	Marionette	INFO	Stopped listening on port 44115
+1539613716205	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1592
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1728
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+[Parent 8107, Gecko_IOThread] WARNING: pipe error (64): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
